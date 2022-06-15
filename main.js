@@ -53,20 +53,20 @@ if (randomNumber < 20) {
 
 //Вриант 1 case с выражениями
 
-const randomNumber0 = Math.floor(Math.random() * 100);
-console.log(randomNumber0);
-switch (randomNumber0) {
-    case randomNumber0 < 20:
-        console.log('randomNumber меньше 20');
-        break;
-    case randomNumber0 > 50:
-        console.log('randomNumber больше 50');
-        break;
-    default:
-        console.log('randomNumber больше 20, и меньше 50');
-}
 
-//Вриант 2 case с выражениями
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const randomNumber1 = Math.floor(Math.random() * 100);
 console.log(randomNumber1);
@@ -81,7 +81,7 @@ switch (true) {
         console.log('randomNumber больше 20, и меньше 50');
 }
 
-//Вриант 3 case (перечислить каждые значения)
+//Вриант 2 case (перечислить каждые значения)
 
 const randomNumber2 = Math.floor(Math.random() * 100);
 console.log(randomNumber2);
