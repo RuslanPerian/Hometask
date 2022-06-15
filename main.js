@@ -53,21 +53,6 @@ if (randomNumber < 20) {
 
 //Вриант 1 case с выражениями
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const randomNumber1 = Math.floor(Math.random() * 100);
 console.log(randomNumber1);
 switch (true) {
