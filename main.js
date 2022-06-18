@@ -19,10 +19,10 @@ for (i = 10; i <= 50; i++) {
 //task 2
 
 const myself = {
-    first_name: 'Ruslan',
-    last_name: 'Perian',
+    firstName: 'Ruslan',
+    lastName: 'Perian',
     age: 22,
-    Am_I_have_pets: false
+    amIHavePets: false
 }
 
 console.log(myself);
@@ -63,59 +63,59 @@ console.log(result);
 
 //Вариант 1 с объектом 
 
-const Me = {
-    first_name: 'Ruslan',
-    last_name: 'Perian'
+const me = {
+    firstName: 'Ruslan',
+    lastName: 'Perian'
 }
 
 //Стрелочная функция
 
 const fullName = (Info) => {
-    let fullName = Info.first_name + ' ' + Info.last_name;
+    let fullName = Info.firstName + ' ' + Info.lastName;
     console.log(fullName);
 };
 
-fullName(Me);
+fullName(me);
 
 //Старое объявление функции
 
 function fullNameOld(Info) {
-    let fullName = Info.first_name + ' ' + Info.last_name;
+    let fullName = Info.firstName + ' ' + Info.lastName;
     console.log(fullName);
 }
 
-fullNameOld(Me);
+fullNameOld(me);
 
 //Вариант 2 переменные
 
-const first_name = 'Ruslan',
-    last_name = 'Perian';
+const firstName = 'Ruslan',
+    lastName = 'Perian';
 
 //Стрелочная функция
 
-const fullName1 = (name, lastname) => {
-    let fullName = name + ' ' + lastname;
+const fullName1 = (name, lastName) => {
+    let fullName = name + ' ' + lastName;
     console.log(fullName);
 };
 
-fullName1(first_name, last_name);
+fullName1(firstName, lastName);
 
 //Старое объявление функции
 
-function fullName1Old(name, lastname) {
-    let fullName = name + ' ' + lastname;
+function fullName1Old(name, lastName) {
+    let fullName = name + ' ' + lastName;
     console.log(fullName);
 };
 
-fullName1Old(first_name, last_name);
+fullName1Old(firstName, lastName);
 
 //Вариант 3 fullName как свойство объекта I
 
 const I = {
-    first_name: 'Ruslan',
-    last_name: 'Perian',
-    fullName: function(first_name, last_name) {
-        let result = first_name + ' ' + last_name;
+    firstName: 'Ruslan',
+    lastName: 'Perian',
+    fullName: function(firstName, lastName) {
+        let result = firstName + ' ' + lastName;
         return result;
     }
 }
@@ -129,13 +129,13 @@ const concatenation = (firstName, lastName) => {
     return fullName;
 };
 
-const AboutMe = {
-    first_name: 'Ruslan',
-    last_name: 'Perian',
-    fullName: concatenation(first_name, last_name)
+const aboutMe = {
+    firstName: 'Ruslan',
+    lastName: 'Perian',
+    fullName: concatenation(firstName, lastName)
 }
 
-console.log(AboutMe.fullName);
+console.log(aboutMe.fullName);
 
 //Старое объявление функции
 
@@ -144,13 +144,13 @@ function concatenationOld(firstName, lastName) {
     return fullName;
 };
 
-const About = {
-    first_name: 'Ruslan',
-    last_name: 'Perian',
-    fullName: concatenationOld(first_name, last_name)
+const about = {
+    firstName: 'Ruslan',
+    lastName: 'Perian',
+    fullName: concatenationOld(firstName, lastName)
 }
 
-console.log(About.fullName);
+console.log(about.fullName);
 
 //task 5
 
