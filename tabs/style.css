@@ -1,0 +1,57 @@
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.tabs-block-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#tabs,
+#tabs2 {
+    display: flex;
+}
+
+.tab-btn,
+.tab-btn2 {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.tab-btn.active,
+.tab-btn2.active2 {
+    background-color: blue;
+    color: #ffffff;
+}
+
+.tab-btn2.active2 {
+    background-color: green;
+}
+
+#contents,
+#contents2 {
+    max-width: 300px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.content,
+.content2 {
+    display: none;
+}
+
+.content.active,
+.content2.active2 {
+    display: block;
+}
